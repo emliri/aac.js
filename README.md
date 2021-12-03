@@ -21,17 +21,8 @@ AAC.js was written by [@devongovett](http://github.com/devongovett) of [Audiocog
 
 ## Building
 
-We use [browserify](https://github.com/substack/node-browserify) to build AAC.js.  You can download a
-prebuilt version from the Github [releases](https://github.com/audiocogs/aac.js/releases) page. 
-To build AAC.js for the browser yourself, use the following commands:
-
-    npm install
-    make browser
-    
-This will place a built `aac.js` file, as well as a source map in the `build/` directory.
-
-AAC.js depends on [Aurora.js](https://github.com/audiocogs/aurora.js), our audio codec framework.
-For detailed information on how to use Aurora.js, check out the [documentation](https://github.com/audiocogs/aurora.js/wiki).
+WIP (for now removed antique build system of upstream audiocogs revision,
+and make sure this can get import from other builds as in-tree source).
 
 ## Features
 
