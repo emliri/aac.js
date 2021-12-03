@@ -6,24 +6,13 @@
   "peerDependencies": {
     "av": "~0.4.0"
   },
-  "devDependencies": {
-    "exorcist": "^0.1.6",
-    "browserify": "^4.1.10",
-    "browserify-shim": "^3.5.0"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "av": "global:AV"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/audiocogs/aac.js"
   },
   "keywords": [
+    "AAC",
+    "MP4A",
     "audio",
     "av",
     "aurora.js",
@@ -35,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/audiocogs/aac.js/issues"
   },
-  "homepage": "https://github.com/audiocogs/aac.js"
+  "homepage": "https://github.com/audiocogs/aac.js",
+  "scripts": {
+    "install": "find node_modules/av -name \"*.coffee\" -type f -delete"
+  }
 }
