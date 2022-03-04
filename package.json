@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/audiocogs/aac.js",
   "scripts": {
-    "install": "find node_modules/av -name \"*.coffee\" -type f -delete"
+    "postinstall": "find node_modules/av -name \"*.coffee\" -type f -delete"
   }
 }
